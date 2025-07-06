@@ -1,0 +1,73 @@
+body {
+    background: #73c066;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 50px auto 15px;
+}
+
+.card {
+    background: #1b1a1adf;
+    border-radius: 30px;
+    min-height: 400px;
+    padding: 50px;
+    margin: 50px auto;
+    width: 60%;
+}
+
+.url {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.url:hover {
+        background: #2c2c2ccd;
+        border-radius: 25%;
+}
+
+.url img {
+    width: 50px;
+}
+
+#redirecting {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+}
+
+.search {
+    width: 50%;
+    max-width: 100%;
+    position: relative;
+}
+
+.search input {
+    height: 60px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.ok {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.ok img {
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    padding: 0;
+}
+
+#example {
+    color: #7a7676;
+    font-size: large;
+}
