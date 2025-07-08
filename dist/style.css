@@ -96,3 +96,7 @@ h1 {
 #qr {
     width: 30vh;
 }
+
+.prod {
+    flex: auto;
+}
