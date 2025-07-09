@@ -68,6 +68,10 @@ h1 {
     padding: 0;
 }
 
+.ok img:hover {
+    width: 55px;
+}
+
 #example {
     color: #7a7676;
     font-size: large;
@@ -99,4 +103,32 @@ h1 {
 
 .prod {
     flex: auto;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.prod button {
+    background: #73c066;
+    border: none;
+    cursor: pointer;
+}
+
+.prod button:hover {
+    background: #44773a;
+}
+
+.dow {
+    width: 20vh;
+}
+
+.sav {
+    width: 10vh;
+}
+
+#download {
+    width: 30px;
+}
+
+#save {
+    width: 30px;
 }
