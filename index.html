@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QR Generator</title>
+</head>
+<body>
+    <h1>QR Generator</h1>
+    <div class="card">
+        <div class="left">
+            <button class="url">
+                <img src="img/url.png">
+            </button>
+            <p id="redirecting">Redirecting to an existing web URL</p>
+            <div class="search">
+                <input type="text" placeholder="Enter URL">
+                <button class="ok">
+                    <img src="img/ok.png">
+                </button>
+            </div>
+            <p id="example">Try something like https://example.com/</p>
+            <button class="clear">Clear</button>
+        </div>
+        <div class="right">
+            <p id="qrcode">QR Code</p>
+            <img id="qr" src="img/qr.png">
+            <div class="prod">
+                <button class="dow">
+                    <img id="download" src="img/download.png">
+                </button>
+                <button class="sav">
+                    <img id="save" src="img/save.png">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

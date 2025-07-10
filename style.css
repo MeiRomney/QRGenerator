@@ -1,0 +1,159 @@
+body {
+    background: #73c066;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 50px auto 15px;
+}
+
+.card {
+    background: #1b1a1adf;
+    border-radius: 30px;
+    min-height: 400px;
+    padding: 50px;
+    margin: 50px auto;
+    width: 60%;
+    display: flex;
+}
+
+.url {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.url:hover {
+        background: #2c2c2ccd;
+        border-radius: 25%;
+}
+
+.url img {
+    width: 50px;
+}
+
+#redirecting {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+}
+
+.search {
+    width: 90%;
+    max-width: 100%;
+    position: relative;
+}
+
+.search input {
+    height: 60px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.ok {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.ok img {
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    padding: 0;
+}
+
+.ok img:hover {
+    width: 55px;
+}
+
+#example {
+    color: #7a7676;
+    font-size: large;
+}
+
+.left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.clear {
+    position: absolute;
+    bottom: 6vh;
+    background: #73c066;
+    border: none;
+    cursor: pointer;
+    width: 12vh;
+    height: 5vh;
+    margin-top: 5%;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.clear:hover {
+    background: #44773a;
+}
+
+.left,
+.right {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+#qrcode {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#qr {
+    width: 30vh;
+}
+
+.prod {
+    flex: auto;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.prod button {
+    background: #73c066;
+    border: none;
+    cursor: pointer;
+}
+
+.prod button:hover {
+    background: #44773a;
+}
+
+.dow {
+    width: 20vh;
+}
+
+.sav {
+    width: 10vh;
+}
+
+#download {
+    width: 30px;
+}
+
+#save {
+    width: 30px;
+}
